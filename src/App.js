@@ -1,13 +1,14 @@
 import React from 'react';
-import nav from './components/nav';
+import Nav from './components/Nav';
 import About from './components/About';
+
 function App() {
 
   return (
     <div>
-      <nav></nav>
+      <Nav />
       <main>
-        <About> who I am </About>
+          <About />        
       </main>
     </div>
   );
